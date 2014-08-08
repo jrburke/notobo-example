@@ -5,7 +5,8 @@ requirejs.config({
   baseUrl: 'node_modules',
   paths: {
     app: '../app'
-  }
+  },
+  nodeIdCompat: true
 });
 
 // Start loading the main app file. Put all of

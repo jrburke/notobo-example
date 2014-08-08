@@ -48,7 +48,17 @@ install them in **www/node_modules**.
 * `npm run-script notobo` to update the dependencies to be usable for the
 browser.
 
-Commit anything new in **www/node_modules** to your source control system. It is
+If you do extra modifications, like more npm install and npm dedupe runs, and
+there seems to be problems getting the right configuration, it is best to reset:
+
+* delete the node_modules directory
+* remove the "map" config form app.js
+* `npm install` to install the dependencies from the info saved in the
+package.json
+* `npm dedupe`
+* `npm run-script notobo`
+
+Commit anything in **www/node_modules** to your source control system. It is
 typical for front end dependencies to be committed with the project, and it
 avoids a whole set of problems depending on a registry and network connection to
 set up the code for things like automated testing and deployment, and it gives
