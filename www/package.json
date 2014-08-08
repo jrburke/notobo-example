@@ -1,0 +1,12 @@
+{
+  "name": " ",
+  "description": " ",
+  "repository": " ",
+  "dependencies": {
+    "text": "git://github.com/requirejs/text"
+  },
+
+  "scripts": {
+    "notobo": "notobo app.js"
+  }
+}
