@@ -1,8 +1,8 @@
 ## notobo-example
 
-An example project that uses [notobo](https://github.com/jrburke/notobo) to deal
-with front-end browser dependencies installed via npm. It uses
-[requirejs](http://requirejs.org) to handle front-end module loading.
+An example project that uses npm and [notobo](https://github.com/jrburke/notobo)
+for front-end browser dependencies. It uses [requirejs](http://requirejs.org) to
+handle front-end module loading.
 
 ## Project structure
 
